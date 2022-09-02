@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: mediumslateblue;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+#sort {
+  background: #3498db;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 11px 20px;
+  text-decoration: none;
+}
+
+#sort:hover {
+  background: #3cb0fd;
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+#filter {
+  position: relative;
+  display: inline-block;
+
+  width: 200px;
+  font-family: "Arial";
+
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px 20px 11px 20px;
+  outline: 0;
+
+  border-radius: 11px;
+  background: #e6e6e6;
+  color: #7b7b7b;
+}
+
+ .btn {
+  background-color: black;
+  color: salmon;
+  margin: 15px;
+  margin-left: 900px;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 11px 20px;
+  text-decoration: none;
+  
+}
+
+.btn:hover {
+  background-color: rgb(30, 210, 132);
+}
+
+#select{
+  width: 62%;
+  padding: 8px 12px;
+  font-size: 25px;
+  border: none;
+  border-color: #cccccc;
+  background-color: #ffffff;
+  color: #000000;
+  outline: none;
+  border-radius: 11px;
+}
+
+#submitbtn {
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px 25px;
+  background: #6c0bec;
+  text-decoration: none;
+}
+
+.main-container {
+  background-color: tomato;
+  visibility: hidden;
+  height: 600px;
+  width: 600px;
+  margin: auto;
+}
+
+
+.crossbtn {
+  background-color: rgb(13, 247, 247);
+  color: black;
+  font-size: 35px;
+}
+.crossbtn:hover {
+  background-color: red;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 500px;
+ align-items: center;
+  font-size: 20px;
+  padding: 20px;
+  margin: 10px;
+}
+
+input {
+ 
+  padding: 8px 12px;
+  font-size: 25px;
+  border: none;
+  border-color: #cccccc;
+  background-color: #ffffff;
+  color: #000000;
+  outline: none;
+  border-radius: 11px;
+}
+
+.form h1 {
+
+  text-align: center;
+  color: rgb(220, 203, 20);
+}
+
+

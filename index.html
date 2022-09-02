@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avish Sir Movie Assignment</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <div class="navbar">
+
+                <button id="sort">Sort</button>
+                <select id="filter">
+                    <option value="Action">Action</option>
+                        <option value="Horror">Horror</option>
+                        <option value="Drama">Drama</option>
+                        <option value="Comedy">Comedy</option>
+                        <option value="Genres">Genres</option>
+                        <option value="Adventure">Adventure</option>
+                        <option value="Science-fiction">Science-fiction</option>
+                        <option value="Romance">Romance</option>
+                        <option value="Fantasy">Fantasy</option>
+                        <option value="Documentary">Documentary</option>
+                        <option value="Crime">Crime</option>
+                        <option value="Historical">Historical</option>
+                </select>
+
+                <button class="btn">Create task</button>
+            </div>
+        </div>
+
+
+
+    </nav>
+
+
+    <main>
+
+        <div class="main-container">
+
+            <div class="info">
+                <div class="cross">
+                    <button class="crossbtn">X</button>
+                </div>
+                <form class="form">
+                    <h1>Movie Information</h1>
+                    <input type="text" name="" id="movie-name" placeholder="Enter Movie Name">
+                    <input type="url" name="" id="poster-image-link" placeholder="Enter Movie Img Link">
+                    <select id="select">
+                        <option value="Action">Action</option>
+                        <option value="Horror">Horror</option>
+                        <option value="Drama">Drama</option>
+                        <option value="Comedy">Comedy</option>
+                        <option value="Genres">Genres</option>
+                        <option value="Adventure">Adventure</option>
+                        <option value="Science-fiction">Science-fiction</option>
+                        <option value="Romance">Romance</option>
+                        <option value="Fantasy">Fantasy</option>
+                        <option value="Documentary">Documentary</option>
+                        <option value="Crime">Crime</option>
+                        <option value="Historical">Historical</option>
+                    </select>
+                    <input type="url" name="" id="trailer-link" placeholder="Enter Trailer Link">
+                    <input type="text" name="" id="actor-name" placeholder="Enter Actor Name">
+                    <input type="text" name="" id="director-name" placeholder="Director Name">
+                    <input type="text" name="" id="imdb-rating" placeholder="Enter IMDB Rating">
+                    <button type="submit" id="submitbtn">Add</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div id="main">
+
+
+
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
