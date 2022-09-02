@@ -136,3 +136,29 @@ input {
 }
 
 
+#main{
+  
+  /* background-color:  red; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+
+  
+}
+
+#main div{
+  margin: 10px;
+  padding: 10px;
+  /* justify-content: space-evenly; */
+  text-align: center;
+  height: 400px;
+  width: 250px;
+  background-color: lawngreen;
+}
+
+#main div img{
+padding: 10px;
+border-radius: 10px;
+background-color: red;
+
+}

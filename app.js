@@ -74,7 +74,7 @@ function showData(array) {
     let movieName = document.createElement("h1");
     let img = document.createElement("img");
     let category = document.createElement("h2");
-    let trailer = document.createElement("h2");
+    let trailer = document.createElement("a");
     let actor = document.createElement("h2");
     let director = document.createElement("h2");
     let rating = document.createElement("h3");
@@ -87,7 +87,10 @@ function showData(array) {
 
     category.textContent = d.head2;
 
-    trailer.setAttribute("href",target="_blank",d.trailer) ;
+    trailer.setAttribute("href",d.trailer) ;
+    trailer.textContent=d.trailer;
+    trailer.innerText="Play";
+    trailer.setAttribute("target","_blank");
 
     actor.textContent = d.actor;
 
